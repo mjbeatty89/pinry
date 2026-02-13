@@ -12,8 +12,8 @@ importers:
         specifier: ^0.21.2
         version: 0.21.4
       buefy:
-        specifier: ^0.8.20
-        version: 0.8.20(vue@2.6.14)
+        specifier: ^0.9.29
+        version: 0.9.29(vue@2.6.14)
       bulma:
         specifier: 0.7.5
         version: 0.7.5
@@ -1311,11 +1311,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  buefy@0.8.20:
-    resolution: {integrity: sha512-pg8Cn0m9cjqp2/vaKT4VIfU8KIumuX/gAT1GtearXRs56+kKqAPx3j9O8cm9W6P4jPUCHajKX6H8AqD0ram2Bg==}
+  buefy@0.9.29:
+    resolution: {integrity: sha512-iJutB/ezTQcxqcKvKz129DzomMjNRGdy23lJBtoFQBG//2NveTcPkN/VRUF70z2WH3JB/5nmVeoxr8QOPcs42w==}
     engines: {node: '>= 4.0.0', npm: '>= 3.0.0'}
     peerDependencies:
-      vue: ^2.5.18
+      vue: ^2.6.11
 
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
@@ -1337,6 +1337,9 @@ packages:
 
   bulma@0.7.5:
     resolution: {integrity: sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==}
+
+  bulma@0.9.4:
+    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
 
   bytes@3.0.0:
     resolution: {integrity: sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw==}
@@ -6875,9 +6878,9 @@ snapshots:
       node-releases: 2.0.3
       picocolors: 1.0.0
 
-  buefy@0.8.20(vue@2.6.14):
+  buefy@0.9.29(vue@2.6.14):
     dependencies:
-      bulma: 0.7.5
+      bulma: 0.9.4
       vue: 2.6.14
 
   buffer-from@1.1.2: {}
@@ -6897,6 +6900,8 @@ snapshots:
   builtin-status-codes@3.0.0: {}
 
   bulma@0.7.5: {}
+
+  bulma@0.9.4: {}
 
   bytes@3.0.0: {}
 
